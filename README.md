@@ -6,8 +6,8 @@ Tool to augment git branch output with PivotalTracker story names if the id of t
 ## Motivation
 
 We use gitflow at work and we create essentially a branch per ticket and given that branch descriptions were not
-remotely persisted by git we needed a way to make more meaning out of our branch names without them becomming 
-excessivly long.
+remotely persisted by git we needed a way to make more meaning out of our branch names without them becoming
+excessively long.
 
 So we started using the following convention:
 piv-####### where # was the story id from PivotelTracker.
@@ -41,7 +41,7 @@ cp cp bin/pivgit ~/bin/
 
 Pivgit works by tokenising the output of git branch (or anything else piped into it). 
 
-Then when it finds a number that matches a story id it has harvested from PivotelTracker using your access Token it will
+Then when it finds a number that matches a story id it has harvested from PivotalTracker using your access Token it will
 substitute the name of the story after that token. Everything else is parsed through.
 
 When tokenising pivgit removes all non numeric characters so all you have to do is add the story id 
