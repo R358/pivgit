@@ -59,7 +59,7 @@ func main() {
 	var prjOffset = 0
 	if token == "" {
 		if len(os.Args) < 2 {
-			log.Fatalln("Token not set, either supply the token as the first parameter or set PIVGET_TOKEN")
+			log.Fatalln("Token not set, either supply the token as the first parameter or set PIVGIT_TOKEN")
 		} else {
 			prjOffset = 1
 			token = os.Args[1]
