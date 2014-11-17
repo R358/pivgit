@@ -59,6 +59,7 @@ Will end up being 2123456 with the 2 added to the front of the number.
 
 ## Usage:
 
+Your API token can be found on the bottom of your PivotalTracker profile page.
 
 If you are on your own machine, then the simplest thing to do would be add the following to your .bash_profile
 ```
