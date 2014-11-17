@@ -33,7 +33,7 @@ go install github.com/R358/pivgit
 
 # Set it up for you to use, make sure ~/bin exists
 
-cp cp bin/pivgit ~/bin/
+cp bin/pivgit ~/bin/
 
 ````
 
